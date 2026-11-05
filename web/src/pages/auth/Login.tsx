@@ -173,6 +173,7 @@ export const Login: React.FC = () => {
           {authMode === "password" ? (
             <form onSubmit={handlePasswordLogin} className="flex flex-col gap-4">
               <Input
+                id="trainer-email"
                 label="Trainer Email or ID"
                 type="text"
                 required
@@ -185,6 +186,7 @@ export const Login: React.FC = () => {
 
               <div className="relative">
                 <Input
+                  id="trainer-password"
                   label="Password"
                   type={showPassword ? "text" : "password"}
                   required
