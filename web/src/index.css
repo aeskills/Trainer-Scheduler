@@ -1,0 +1,116 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-brand-50: #f5f3ff;
+    --color-brand-100: #ede9fe;
+    --color-brand-200: #ddd6fe;
+    --color-brand-300: #c4b5fd;
+    --color-brand-400: #a78bfa;
+    --color-brand-500: #8b5cf6;
+    --color-brand-600: #7c3aed;
+    --color-brand-700: #6d28d9;
+    --color-brand-800: #5b21b6;
+    --color-brand-900: #4c1d95;
+
+    /* Status Colors */
+    --status-empty: #ffffff;
+    --status-planned: #ede9fe; /* Light purple */
+    --status-planned-border: #c4b5fd;
+    --status-planned-text: #5b21b6;
+
+    --status-submitted: #dcfce7; /* Light green */
+    --status-submitted-border: #86efac;
+    --status-submitted-text: #15803d;
+
+    --status-reminder: #fef3c7; /* Light yellow/warning tint */
+    --status-reminder-border: #fcd34d;
+    --status-reminder-text: #b45309;
+
+    --status-missed: #fee2e2; /* Light red */
+    --status-missed-border: #fca5a5;
+    --status-missed-text: #b91c1c;
+
+    --bg-page: #f8fafc;
+    --bg-card: #ffffff;
+    --text-primary: #0f172a;
+    --text-muted: #64748b;
+    --border-subtle: #e2e8f0;
+  }
+
+  .dark {
+    --status-empty: #1e1b2e;
+    --status-planned: #2e1065;
+    --status-planned-border: #5b21b6;
+    --status-planned-text: #c4b5fd;
+
+    --status-submitted: #064e3b;
+    --status-submitted-border: #047857;
+    --status-submitted-text: #86efac;
+
+    --status-reminder: #78350f;
+    --status-reminder-border: #b45309;
+    --status-reminder-text: #fde68a;
+
+    --status-missed: #7f1d1d;
+    --status-missed-border: #b91c1c;
+    --status-missed-text: #fca5a5;
+
+    --bg-page: #090714;
+    --bg-card: #130f24;
+    --text-primary: #f8fafc;
+    --text-muted: #94a3b8;
+    --border-subtle: #241c42;
+  }
+
+  body {
+    background-color: var(--bg-page);
+    color: var(--text-primary);
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  /* Smooth mobile tapping */
+  * {
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+/* Glassmorphism helpers */
+.glass {
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+.dark .glass {
+  background: rgba(19, 15, 36, 0.75);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 9999px;
+}
+.dark ::-webkit-scrollbar-thumb {
+  background: #332d52;
+}
+
+/* Safe areas for iOS mobile notches and home indicators */
+.pb-safe {
+  padding-bottom: env(safe-area-inset-bottom, 16px);
+}
+.pt-safe {
+  padding-top: env(safe-area-inset-top, 16px);
+}

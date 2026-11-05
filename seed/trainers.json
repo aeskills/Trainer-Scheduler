@@ -1,0 +1,60 @@
+{
+  "admin": {
+    "name": "System Administrator",
+    "email": "aeskills2026@gmail.com",
+    "phone": "+919876543210",
+    "state": "Delhi",
+    "role": "admin",
+    "status": "Approved"
+  },
+  "trainers": [
+    {
+      "name": "Trainer UP-1",
+      "email": "trainer.up1@gmail.com",
+      "phone": "+919800000001",
+      "state": "UP",
+      "role": "trainer",
+      "status": "Approved"
+    },
+    {
+      "name": "Trainer UP-2",
+      "email": "trainer.up2@gmail.com",
+      "phone": "+919800000002",
+      "state": "UP",
+      "role": "trainer",
+      "status": "Approved"
+    },
+    {
+      "name": "Trainer Delhi-1",
+      "email": "trainer.delhi1@gmail.com",
+      "phone": "+919800000003",
+      "state": "Delhi",
+      "role": "trainer",
+      "status": "Approved"
+    },
+    {
+      "name": "Trainer Delhi-2",
+      "email": "trainer.delhi2@gmail.com",
+      "phone": "+919800000004",
+      "state": "Delhi",
+      "role": "trainer",
+      "status": "Approved"
+    },
+    {
+      "name": "Trainer UK-1",
+      "email": "trainer.uk1@gmail.com",
+      "phone": "+919800000005",
+      "state": "UK",
+      "role": "trainer",
+      "status": "Approved"
+    },
+    {
+      "name": "Trainer UK-2",
+      "email": "trainer.uk2@gmail.com",
+      "phone": "+919800000006",
+      "state": "UK",
+      "role": "trainer",
+      "status": "Approved"
+    }
+  ]
+}

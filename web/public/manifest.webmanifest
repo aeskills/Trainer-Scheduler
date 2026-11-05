@@ -1,0 +1,18 @@
+{
+  "id": "/",
+  "name": "TrainerPlan – Field Trainer Scheduler",
+  "short_name": "TrainerPlan",
+  "description": "Plan school visits, submit your day's work with photos, and stay on track.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0F0B1E",
+  "theme_color": "#6D28D9",
+  "categories": ["productivity", "education"],
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
