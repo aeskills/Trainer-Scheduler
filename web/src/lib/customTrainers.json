@@ -1,0 +1,26 @@
+[
+  {
+    "uid": "trainer_surbhi",
+    "name": "Surbhi",
+    "email": "cpd.adobeforeducation@gmail.com",
+    "password": "surbhi123",
+    "phone": "9898989001",
+    "state": "UK",
+    "role": "trainer",
+    "status": "Approved",
+    "schools": [],
+    "createdAt": { "seconds": 1730820000 }
+  },
+  {
+    "uid": "trainer_aditya",
+    "name": "Aditya",
+    "email": "githubrepos.official@gmail.com",
+    "password": "aditya123",
+    "phone": "9876543210",
+    "state": "Delhi",
+    "role": "trainer",
+    "status": "Approved",
+    "schools": [],
+    "createdAt": { "seconds": 1730820000 }
+  }
+]
